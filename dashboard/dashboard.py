@@ -144,4 +144,4 @@ plt.xticks(rotation=45)
 
 plt.tight_layout()
 st.pyplot(plt)
-plt.clf() 
+plt.clf()
