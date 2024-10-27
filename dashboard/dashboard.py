@@ -38,7 +38,7 @@ def create_rfm_analysis(df):
 
     return rfm_df
 
-all_df = pd.read_csv("C:/Users/TOSHIBA/submission/dashboard/main_data.csv")
+all_df = pd.read_csv("C:/Users/TOSHIBA/submission/dashboard/all_df.csv")
 
 all_df['dteday'] = pd.to_datetime(all_df['dteday'])
 
